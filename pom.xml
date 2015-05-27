@@ -27,7 +27,7 @@
 
     <groupId>org.wso2.carbon.mediation</groupId>
 	<artifactId>carbon-mediation</artifactId>
- 	<version>4.4.2-SNAPSHOT</version>
+ 	<version>4.2.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
     <name>WSO2 Carbon Mediation - Aggregator Pom</name>
     <url>http://wso2.org</url>
@@ -39,40 +39,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <modules>
-                <module>service-stubs/mediation-admin</module>
-                <module>service-stubs/mediation-monitor</module>
-                <module>service-stubs/application-mgt</module>
-                <module>components/mediation-registry</module>
-                <module>components/mediation-initializer</module>
-                <module>components/mediation-monitor</module>
-                <module>components/mediation-config-admin</module>
-                <module>components/business-adaptors</module>
-                <module>components/mediation-admin</module>
-                <!--module>components/mediation-connector</module-->
                 <module>components/mediators</module>
-                <module>components/event-sink</module>
-                <module>components/mediation-ui</module>
-                <module>components/mediation-ntask</module>
-                <module>components/inbound-endpoints</module>
-                <module>components/mediation-clustering</module>
-                <module>components/application-deployers</module>
-                <module>components/application-mgt</module>
-		<module>features/event-sink</module>
-                <module>features/scheduled-tasks</module>
-                <module>features/business-adaptors</module>
-                <module>features/mediation-config-admin-features</module>
-                <module>features/mediation-monitor-features</module>
-                <module>features/mediation-admin-features</module>
-                <module>features/mediation-initializer-features</module>
                 <module>features/mediator-features</module>
-                <module>features/mediation-ui-features</module>
-                <module>features/synapse-features</module>
-                <module>features/mediation-ntask-features</module>
-                <module>features/inbound-endpoints</module>
-                <module>features/mediation-clustering</module>
-                <module>features/application-deployers</module>
-                <module>features/application-mgt</module>
-                <module>components/mediation-message-processor</module>
             </modules>
         </profile>
     </profiles>
