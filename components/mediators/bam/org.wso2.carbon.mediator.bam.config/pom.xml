@@ -34,6 +34,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-scr-plugin</artifactId>
+                <version>1.7.2</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.felix</groupId>
@@ -63,7 +64,7 @@
     </build>
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.synapse</groupId>
             <artifactId>synapse-core</artifactId>
             <exclusions>
@@ -73,18 +74,21 @@
                 </exclusion>
             </exclusions>
         </dependency>        
+    -->
         <dependency>
             <groupId>org.wso2.carbon</groupId>
             <artifactId>org.wso2.carbon.mediator.service</artifactId>
-            <version>4.2.0</version>
+            <version>4.2.1</version>
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon</groupId>
             <artifactId>org.wso2.carbon.logging</artifactId>
+        <version>4.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon</groupId>
             <artifactId>org.wso2.carbon.ui</artifactId>
+        <version>4.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon</groupId>
@@ -101,11 +105,23 @@
             <artifactId>org.wso2.carbon.registry.common</artifactId>
             <version>4.2.0</version>
         </dependency>
+        <dependency>
+           <groupId>org.wso2.carbon</groupId>
+           <artifactId>org.wso2.carbon.core</artifactId>
+           <version>4.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2.wso2</groupId>
+            <artifactId>axis2</artifactId>
+            <version>1.6.1.wso2v10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2.wso2</groupId>
+            <artifactId>axis2-client</artifactId>
+            <version>1.6.1.wso2v10</version>
+        </dependency>
     </dependencies>
 
-    <properties>
-        <wso2carbon.version.registry-core>${wso2carbon.version}</wso2carbon.version.registry-core>
-        <wso2carbon.version.registry-common>${wso2carbon.version}</wso2carbon.version.registry-common>
-    </properties>
+    
 
 </project>

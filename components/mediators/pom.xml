@@ -31,8 +31,8 @@
     <name>WSO2 Carbon - Mediators Aggregator Module</name>
     <url>http://wso2.org</url>
 
-			<modules>
-				<module>bam</module>
-			</modules>
+		<modules>
+			<module>bam</module>
+		</modules>
 
 </project>
