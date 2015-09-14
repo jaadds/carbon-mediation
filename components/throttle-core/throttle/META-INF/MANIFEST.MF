@@ -1,0 +1,40 @@
+Manifest-Version: 1
+Bnd-LastModified: 1442206497639
+Build-Jdk: 1.7.0_71
+Built-By: Amila
+Bundle-Description: WSO2 is an open source application development softw
+ are company focused on providing service-oriented        architecture s
+ olutions for professional developers.
+Bundle-DocURL: http://www.wso2.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.mediation.throttle.core
+Bundle-SymbolicName: org.wso2.carbon.mediation.throttle.core
+Bundle-Vendor: WSO2
+Bundle-Version: 4.4.11.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.mediation.throttle.core;uses:="org.apach
+ e.commons.logging,org.wso2.carbon.mediation.throttle.core.factory,org.a
+ pache.axis2.engine,org.apache.axis2.clustering,org.apache.axis2.context
+ ,javax.xml.namespace,org.apache.neethi,org.apache.neethi.builders.xml,o
+ rg.apache.axiom.om,javax.cache";version="4.4.11.SNAPSHOT",org.wso2.carb
+ on.mediation.throttle.module;uses:="org.apache.axis2,org.wso2.carbon.me
+ diation.throttle.core,org.apache.commons.logging,org.apache.neethi,org.
+ apache.axis2.context,javax.xml.namespace,org.apache.axis2.description,o
+ rg.apache.axis2.util,org.apache.axis2.engine,org.apache.neethi.builders
+ .xml,org.apache.axis2.modules,org.apache.axiom.om";version="4.4.11.SNAP
+ SHOT"
+Import-Package: javax.cache;resolution:=optional;version="[1.0,2)",javax
+ .xml.namespace;resolution:=optional,org.apache.axiom.om;version="[1.2.1
+ 1.wso2v5,1.3.0)",org.apache.axis2;version="[1.6.1.wso2v11,1.7.0)",org.a
+ pache.axis2.clustering;version="[1.6.1.wso2v11,1.7.0)",org.apache.axis2
+ .context;version="[1.6.1.wso2v11,1.7.0)",org.apache.axis2.description;v
+ ersion="[1.6.1.wso2v11,1.7.0)",org.apache.axis2.engine;version="[1.6.1.
+ wso2v11,1.7.0)",org.apache.axis2.modules;version="[1.6.1.wso2v11,1.7.0)
+ ",org.apache.axis2.util;version="[1.6.1.wso2v11,1.7.0)",org.apache.comm
+ ons.logging;version="[1.2,2)",org.apache.neethi;version="2.0.4.wso2v4",
+ org.apache.neethi.builders.xml;version="2.0.4.wso2v4",org.wso2.carbon.m
+ ediation.throttle.core.factory;resolution:=optional,org.wso2.carbon.reg
+ istry.core.service;version="[1.0.1,2.0.0)"
+Tool: Bnd-1.43.0

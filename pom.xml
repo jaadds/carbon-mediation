@@ -441,6 +441,29 @@
                 </exclusions>
                 <type>mar</type>
             </dependency>
+            <dependency>
+                <groupId>org.apache.rampart</groupId>
+                <artifactId>rampart-policy</artifactId>
+                <version>${rampart.mar.version}</version>
+                <exclusions>
+                <exclusion>
+                        <artifactId>jcl-over-slf4j</artifactId>
+                        <groupId>org.slf4j</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>woden-api</artifactId>
+                        <groupId>org.apache.woden</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>xmlbeans</artifactId>
+                        <groupId>org.apache.xmlbeans</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>log4j-over-slf4j</artifactId>
+                        <groupId>org.slf4j</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
 
             <!--4 Carbon4-Kernel  -->
             <dependency>
